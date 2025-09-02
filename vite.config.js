@@ -13,7 +13,7 @@ export default defineConfig({
     target: 'es2022',
     inputGlobPatterns: ['src/pages/**/*.html'],
     modulePreload: {
-      resolveDependencies: false,
+      resolveDependencies: true,
     },
   },
   plugins: [czechitasRenderVitePlugin()],
